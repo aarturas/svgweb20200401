@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>SVG tekstas</title>
+  </head>
+  <!-- ---------------------------------------------  -->
+  <body>
+    <!-- ---------------------------------------------  -->
+    <!--           Pradėsime nuo MOBILE FIRST           -->
+    <!-- ---------------------------------------------  -->
+
+    <div class="container">
+      <!-- ---------------------------------------------  -->
+      <!--                   HEADER                       -->
+      <!-- ---------------------------------------------  -->
+
+      <header>
+        <img src="img/logoA.svg" alt="23andfour logo" class="logo" />
+
+        <!-- ---------------------------------------------  -->
+        <!--                    NAV                         -->
+        <!-- ---------------------------------------------  -->
+
+        <nav>
+          <!-- Duosime tokį pat pavadinimą, kaip ir žemiau UL klasėje  -->
+          <!-- ID - pridėsime, kad būtų galima su JS redaguoti  -->
+          <a href="#" class="hide-desktop">
+            <img
+              src="img/hamburgeris4.svg"
+              alt="toggle menu"
+              class="menu"
+              id="menu"
+            />
+            <!-- <img src="img/apskritims.svg" alt="toggle menu" id="menu" /> -->
+          </a>
+
+          <!-- ---------------------------------------------  -->
+          <!--        NAV  menu paruošimas                    -->
+          <!-- ---------------------------------------------  -->
+
+          <ul class="show-desktop hide-mobile" id="nav">
+            <li id="exit" class="exit-btn hide-desktop">
+              <img src="img/kryziukas.svg" alt="exit menu" />
+            </li>
+
+            <li><a href="index.html">Pradžia</a></li>
+            <li class="current"><a href="#">Tekstas</a></li>
+            <li><a href="tapyba.html">Tapyba</a></li>
+            <li><a href="spalva.html">Spalva</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- ---------------------------------------------  -->
+      <!--           HEADER   -  pabaiga                  -->
+      <!-- ---------------------------------------------  -->
+
+      <!-- ---------------------------------------------  -->
+      <!--  SECTION  pirmas skyrius: H-1 ir tekstas žemiau ->
+      <!- ---------------------------------------------  -->
+
+      <section>
+        <img src="img/failai_medis.svg" alt="serveris" class="server" />
+        <h1>
+          Pagrindinės formos
+        </h1>
+        <p class="subhead">
+          Unicode simbolių tekstas, įtrauktas į SVG failą, yra išreiškiamas XML
+          simbolių duomenimis
+        </p>
+        <!-- ---------------------------------------------  -->
+        <!--  Kita įcona "scrollinimo" mobiliame nesimatys  -->
+        <!-- ---------------------------------------------  -->
+
+        <img
+          src="img/rodykle.svg"
+          alt="scroll down"
+          class="scroll hide-mobile show-desktop"
+        />
+      </section>
+    </div>
+
+    <!-- ---------------------------------------------  -->
+    <!--     Kitas blokas bus su nuotraukų skyriais     -->
+    <!-- ---------------------------------------------  -->
+
+    <div class="blue-container">
+      <div class="container">
+        <ul>
+          <li>
+            <img src="img/uzrasine.svg" alt="Calender icon" />
+            <p>
+              Visais atvejais absoliutinės koordinatės seka didžiosiomis
+              raidėmis, o santykinės koordinatės naudojamos po lygiaverčių
+              mažųjų raidžių.
+            </p>
+          </li>
+
+          <!-- ---------------------------------------------  -->
+          <!--     Kitas blokas bus su nuotraukų skyriais     -->
+          <!-- ---------------------------------------------  -->
+
+          <li>
+            <img src="img/kolba.svg" alt="Calender icon" />
+            <p>
+              Paprastos ar sudėtinės formos kontūrai brėžiami išlenktomis arba
+              tiesiomis linijomis, kurias galima užpildyti, nubrėžti arba
+              naudoti kaip karpimo funkciją ir turi kompaktišką kodavimą.
+            </p>
+          </li>
+
+          <!-- ---------------------------------------------  -->
+          <!--     Kitas blokas bus su nuotraukų skyriais     -->
+          <!-- ---------------------------------------------  -->
+
+          <li>
+            <img src="img/xiry.svg" alt="Calender icon" />
+            <p>
+              M - eina prieš x ir y koordinates , o L - prieš tašką, prie kurio
+              turėtų būti nubrėžta linija. Daugiau komandų raidės ( C, S, Q, T,
+              ir A) ankstesni duomenys, kurie naudojami įvairių Bézier ir
+              elipsės formos kreivėms.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ---------------------------------------------  -->
+    <!--     Kitas blokas bus su testimonials     -->
+    <!-- ---------------------------------------------  -->
+
+    <div class="gray-container">
+      <div class="container">
+        <ul>
+          <li>
+            <figure>
+              <img src="img/koronaKauke.svg" alt="User testimonial picture" />
+              <blockquote>
+                Gali būti nubrėžti tiesūs takai ir takai, sudaryti iš sujungtų
+                tiesių segmentų (polilinijų), taip pat uždarų daugiakampių,
+                apskritimų ir elipsių. Stačiakampiai ir apvalūs kampai
+                stačiakampiai taip pat yra standartiniai elementai
+              </blockquote>
+              <figcaption>Pagrindinės formos</figcaption>
+            </figure>
+
+            <!-- ---------------------------------------------  -->
+            <!--     Kitas blokas bus su testimonials     -->
+            <!-- ---------------------------------------------  -->
+
+            <figure>
+              <img
+                src="img/pristatymas_masina.svg"
+                alt="User testimonial picture 2"
+              />
+              <blockquote>
+                SVG figūras galima užpildyti ir nubraižyti (nudažyti spalva,
+                gradientu ar raštu). Užpildymai gali būti nepermatomi arba bet
+                kokio skaidrumo. „Žymekliai“ yra linijos pabaigos bruožai, tokie
+                kaip rodyklių galvutės arba simboliai, kurie gali būti rodomi
+                daugiakampio viršūnėse.
+              </blockquote>
+              <figcaption>Tapyba</figcaption>
+            </figure>
+
+            <!-- ---------------------------------------------  -->
+            <!--       Kitas blokas bus su testimonials         -->
+            <!-- ---------------------------------------------  -->
+
+            <figure>
+              <img src="img/lagaminas.svg" alt="User testimonial picture 3" />
+              <blockquote>
+                Spalvos gali būti taikomos visiems matomų SVG elementų,
+                tiesiogiai per "fill" arba "stroke" savybes. Spalvos nurodomos
+                taip pat, kaip ir CSS2 , ty naudojant paprastus spalvų kodus,
+                tokius kaip "black" ar "blue", šešioliktainiais: (#2f0,
+                #22ff00), dešimtainiais: rgb(255,255,127), arba kaip procentais
+                nuo spalvos kodo rgb(100%,100%,50%).
+              </blockquote>
+              <figcaption>Spalvos</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ---------------------------------------------  -->
+    <!--             PriešPaskutinis skyrius            -->
+    <!-- ---------------------------------------------  -->
+
+    <div class="container">
+      <h2>
+        Iškirpimas, modeliavimas ir kompozicija
+      </h2>
+      <a href="tapyba.html" class="cta">Kitas puslapis</a>
+    </div>
+
+    <!-- ---------------------------------------------  -->
+    <!--                  FOOTER                        -->
+    <!-- ---------------------------------------------  -->
+
+    <footer>
+      <div class="footer-container">
+        <div class="container">
+          <a href="#">
+            <img src="img/logoA.svg" alt="logotipas" class="logo" />
+          </a>
+          <p class="address">Kankorėžių km., 32 22 23 <br />VeRN</p>
+          <ul class="footer-links">
+            <li>
+              <a href="#">Terms of Service</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ---------------------------------------------  -->
+    <!--                  JavaScript                    -->
+    <!-- ---------------------------------------------  -->
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
