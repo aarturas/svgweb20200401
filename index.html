@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Front End Mokymai</title>
+  </head>
+  <!-- --------------------------------------------------------  -->
+  <body>
+    <!-- ------------------------------------------------------  -->
+    <!--           Pradėsime nuo MOBILE FIRST                    -->
+    <!-- ------------------------------------------------------  -->
+
+    <div class="container">
+      <!-- ----------------------------------------------------  -->
+      <!--                   HEADER                              -->
+      <!-- ----------------------------------------------------  -->
+
+      <header>
+        <img src="img/logoA.svg" alt="23andfour logo" class="logo" />
+
+        <!-- --------------------------------------------------  -->
+        <!--                    NAV                              -->
+        <!-- --------------------------------------------------  -->
+
+        <nav>
+          <!-- ------------------------------------------------------  -->
+          <!-- Duosime tokį pat pavadinimą, kaip ir žemiau UL klasėje  -->
+          <!-- ID - pridėsime, kad būtų galima su JS redaguoti         -->
+          <!--            "Hamburgerio" menu brūkšneliai: SVG          -->
+          <!-- ------------------------------------------------------  -->
+
+          <a href="#" class="hide-desktop">
+            <img
+              src="img/hamburgeris4.svg"
+              alt="toggle menu"
+              class="menu"
+              id="menu"
+            />
+          </a>
+
+          <!-- ---------------------------------------------  -->
+          <!--        NAV  menu paruošimas                    -->
+          <!-- ---------------------------------------------  -->
+
+          <ul class="show-desktop hide-mobile" id="nav">
+            <li id="exit" class="exit-btn hide-desktop">
+              <img src="img/kryziukas.svg" alt="exit menu" />
+            </li>
+
+            <li class="current"><a href="#">Pradžia</a></li>
+            <li><a href="tekstas.html">Tekstas</a></li>
+            <li><a href="tapyba.html">Tapyba</a></li>
+            <li><a href="spalva.html">Spalva</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- ---------------------------------------------  -->
+      <!--           HEADER   -  pabaiga                  -->
+      <!-- ---------------------------------------------  -->
+
+      <!-- ---------------------------------------------  -->
+      <!--             SECTION  pirmas skyrius            -->
+      <!-- ---------------------------------------------  -->
+
+      <section>
+        <img src="img/monitorius.svg" alt="serveris" class="server" />
+        <h1>
+          Scalable Vector Graphics ( SVG ) yra Extensible Markup Language (XML)
+        </h1>
+        <p class="subhead">
+          SVG failas yra grafikos failas, kuriame naudojamas dvimatis vektorinis
+          grafinis formatas, sukurtas pasaulinio žiniatinklio konsorciumo (W3C).
+        </p>
+        <!-- ---------------------------------------------  -->
+        <!--  Kita įcona "scrollinimo" mobiliame nesimatys  -->
+        <!-- ---------------------------------------------  -->
+
+        <img
+          src="img/jungtukas.svg"
+          alt="scroll down"
+          class="scroll hide-mobile show-desktop"
+        />
+      </section>
+    </div>
+
+    <!-- ---------------------------------------------  -->
+    <!--     Kitas blokas bus su nuotraukų skyriais     -->
+    <!-- ---------------------------------------------  -->
+
+    <div class="blue-container">
+      <div class="container">
+        <ul>
+          <li>
+            <img src="img/skaito.svg" alt="Calender icon" />
+            <p>
+              Tai apibūdina vaizdus, ​​naudojant teksto formatą, pagrįstą XML .
+              SVG failai yra sukurti kaip standartinis formatas, skirtas
+              vaizduoti vektorinę grafiką internete.
+            </p>
+          </li>
+
+          <!-- ---------------------------------------------  -->
+          <!--     Kitas blokas bus su nuotraukų skyriais     -->
+          <!-- ---------------------------------------------  -->
+
+          <li>
+            <img src="img/saga_fonas.svg" alt="Calender icon" />
+            <p>
+              Visos pagrindinės šiuolaikinės interneto naršyklės įskaitanat
+              Mozilla Firefox , Internet Explorer , Google Chrome , Opera ,
+              Safari ir "Microsoft" Edge - turi SVG perteikimo palaikymą .
+            </p>
+          </li>
+
+          <!-- ---------------------------------------------  -->
+          <!--     Kitas blokas bus su nuotraukų skyriais     -->
+          <!-- ---------------------------------------------  -->
+
+          <li>
+            <img src="img/priminimas.svg" alt="Calender icon" />
+            <p>
+              SVG leidžia naudoti trijų tipų grafinius objektus: vektorines
+              grafines figūras, tokias kaip maršrutai ir kontūrai, susidedantys
+              iš tiesių linijų ir kreivių, vaizdų ir teksto.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ---------------------------------------------  -->
+    <!--     Kitas blokas bus su testimonials     -->
+    <!-- ---------------------------------------------  -->
+
+    <div class="gray-container">
+      <div class="container">
+        <ul>
+          <li>
+            <figure>
+              <img
+                src="img/studentas_akiniai.svg"
+                alt="User testimonial picture"
+              />
+              <blockquote>
+                SVG figūras galima užpildyti arba nubrėžti vientisomis
+                spalvomis, kaip aprašyta aukščiau, arba spalvų gradientais ar
+                pasikartojančiais raštais. Spalvų gradientas gali būti linijinis
+                arba radialinis (apskritas) ir gali apimti daugybę spalvų.
+              </blockquote>
+              <figcaption>Gradientai ir modeliai</figcaption>
+            </figure>
+
+            <!-- ---------------------------------------------  -->
+            <!--     Kitas blokas bus su testimonials     -->
+            <!-- ---------------------------------------------  -->
+
+            <figure>
+              <img
+                src="img/studente_gelyte.svg"
+                alt="User testimonial picture 2"
+              />
+              <blockquote>
+                Grafiniai elementai, įskaitant tekstą, kelius, pagrindines
+                formas ir jų derinius, gali būti naudojami kaip kontūrai, kad
+                būtų galima apibrėžti tiek vidinius, tiek išorinius elementus,
+                kuriuos galima nuspalvoti spalvomis, gradientais ir raštais
+                savarankiškai.
+              </blockquote>
+              <figcaption>Kompozicija</figcaption>
+            </figure>
+            <!-- ------------------------------------------------------  -->
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- -------------------------------------------------------------  -->
+    <!--     PriešPaskutinis skyrius / žalias mygtukas (pradedame)      -->
+    <!-- -------------------------------------------------------------  -->
+
+    <div class="container">
+      <h2>
+        SVG dokumentas gali apibrėžti komponentus, įskaitant formas, nuolydžius
+        ir tt, ir naudoti juos pakartotinai
+      </h2>
+      <a href="tekstas.html" class="cta">Kitas puslapis</a>
+    </div>
+
+    <!-- ---------------------------------------------  -->
+    <!--                  FOOTER                        -->
+    <!-- ---------------------------------------------  -->
+
+    <footer>
+      <div class="footer-container">
+        <div class="container">
+          <a href="#">
+            <img src="img/logoA.svg" alt="logotipas" class="logo" />
+          </a>
+          <p class="address">Kankorėžių km., 32 22 23 <br />VeRN</p>
+          <ul class="footer-links">
+            <li>
+              <a href="#">Terms of Service</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
